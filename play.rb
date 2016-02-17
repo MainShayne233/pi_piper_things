@@ -10,7 +10,7 @@ pin3.off
 pin4.off
 
 pin1.on
-pin3.on
+pin2.on
 sleep 1
 pin1.off
-pin3.off
+pin2.off
