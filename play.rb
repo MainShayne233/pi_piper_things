@@ -11,8 +11,8 @@ pin4.off
 
 #pin1.on
 #pin2.on
-pin3.on
-#pin4.on
+#pin3.on
+pin4.on
 sleep 1
 pin1.off
 pin2.off
@@ -25,4 +25,8 @@ end
 
 def right_backward()
   pin2.on
+end
+
+def left_forward()
+  pin3.on
 end
