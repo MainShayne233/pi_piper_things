@@ -14,7 +14,7 @@ def off_all(pin1, pin2, pin3, pin4)
 end
 
 off_all()
-forward()
+forward(pin1, pin2, pin3, pin4)
 off_all()
 
 
