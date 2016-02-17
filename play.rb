@@ -1,8 +1,16 @@
 require 'pi_piper'
 
-pin = PiPiper::Pin.new(pin: 17, direction: :out)
-pin.off
+pin1 = PiPiper::Pin.new(pin: 17, direction: :out)
+pin2 = PiPiper::Pin.new(pin: 18, direction: :out)
+pin3 = PiPiper::Pin.new(pin: 27, direction: :out)
+pin4 = PiPiper::Pin.new(pin: 22, direction: :out)
+pin1.off
+pin2.off
+pin3.off
+pin4.off
 
-pin.on
+pin1.on
+pin2.on
 sleep 1
-pin.off
+pin1.off
+pin2.off
