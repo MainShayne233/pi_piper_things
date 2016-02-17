@@ -13,9 +13,9 @@ def off_all(pin1, pin2, pin3, pin4)
   pin4.off
 end
 
-off_all()
+off_all(pin1, pin2, pin3, pin4)
 forward(pin1, pin2, pin3, pin4)
-off_all()
+off_all(pin1, pin2, pin3, pin4)
 
 
 
@@ -36,7 +36,7 @@ def left_backward()
   pin4.on
 end
 
-def forward()
+def forward(pin1, pin2, pin3, pin4)
   pin1.on
   #pin3.on
   sleep 1
