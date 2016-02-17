@@ -35,6 +35,6 @@ end
 
 def forward()
   pin1.on
-  pin3.on
+  #pin3.on
   sleep 1
 end
