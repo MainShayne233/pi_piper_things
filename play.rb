@@ -5,10 +5,6 @@ pin2 = PiPiper::Pin.new(pin: 18, direction: :out)
 pin3 = PiPiper::Pin.new(pin: 27, direction: :out)
 pin4 = PiPiper::Pin.new(pin: 22, direction: :out)
 
-off_all()
-forward()
-off_all()
-
 
 def off_all()
   pin1.off
@@ -16,6 +12,13 @@ def off_all()
   pin3.off
   pin4.off
 end
+
+off_all()
+forward()
+off_all()
+
+
+
 
 def right_forward()
   pin1.on
