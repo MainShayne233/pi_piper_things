@@ -9,8 +9,8 @@ pin2.off
 pin3.off
 pin4.off
 
-pin1.on
-pin2.on
+#pin1.on
+#pin2.on
 pin3.on
 pin4.on
 sleep 1
