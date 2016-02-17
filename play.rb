@@ -6,7 +6,7 @@ pin3 = PiPiper::Pin.new(pin: 27, direction: :out)
 pin4 = PiPiper::Pin.new(pin: 22, direction: :out)
 
 
-def off_all()
+def off_all(pin1, pin2, pin3, pin4)
   pin1.off
   pin2.off
   pin3.off
